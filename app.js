@@ -6,7 +6,9 @@ const app = express ();
 const publicFolderPath = path.resolve(__dirname, './public');
 app.use(express.static(publicFolderPath));
 
-app.listen(3030, () => {
+const PORT = process.env.PORT || 3030;
+
+app.listen(PORT, () => {
     console.log('Servidor corriendo en http://localhost:3030');    
 })
 
