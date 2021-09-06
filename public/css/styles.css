@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+header{
+    background-color: #EAC926;
+    width: 100%!important; 
+}
+
+.banner img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    width: 100%;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+header div.logo{
+    width: 50%;
+    padding: 10px;
+}
+
