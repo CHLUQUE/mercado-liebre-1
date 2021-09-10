@@ -1,0 +1,23 @@
+footer{
+    background-color: white;
+    padding: 100px 0 20px 0;
+}
+
+.footer_point {
+    padding: 0 10% 25px 10%;
+    text-align: center; 
+}
+
+.footer_point_title {
+    color: var(--dark_gray);
+}
+
+.footer_point_title {
+    color: var(--dark_gray);
+    font-size: var(--title_f);
+}
+
+.fa_blue {
+    color: var(--light_blue);
+    margin-bottom: 10px;
+}

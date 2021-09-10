@@ -1,0 +1,85 @@
+header{
+    background-color: var(--yellow);
+}
+
+.top_header {
+    padding: 8px 5vw 0 2vw;
+    display: flex; 
+    align-items: center;    
+}
+
+.logo {
+    width: 15vw;
+    padding-top: 1vh;
+    margin-right: 2vw;
+}
+
+.logo_mobile_header {
+    display:flex; 
+    height: 30px;
+}
+
+.logo_desktop_header {
+    display: none;
+}
+
+.search_bar {
+    width: 80%;
+}
+
+.search_bar input {
+    width: 80%;
+    padding-left: 12px;
+    border-style: none;
+    height: 30px;
+}
+
+.search_button {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-style: none;
+}
+
+.burger_menu {
+    width: 30px;
+    height: 30px;
+    background-color: var(--blue);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burguer-icon {
+    color: white;    
+}
+
+.finance {
+    display: flex;
+    align-items: center;
+    width: 68vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.nav_bar_cont {
+    display: none;
+}
+
+
+.nav_link {
+    color: var(--dark_gray);
+    font-size: var(--p);
+    font-weight: 500;
+    text-decoration-line: none;   
+
+}
+
+.home_banner {
+    width: 100%;
+}
+
+ 
