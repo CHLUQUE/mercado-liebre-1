@@ -10,7 +10,6 @@ header{
 
 .logo {
     width: 15vw;
-    padding-top: 1vh;
     margin-right: 2vw;
 }
 
@@ -59,14 +58,23 @@ header{
 
 .finance {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 68vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa-hand-holding-usd {
+    margin-right: 2px;
 }
 
 .nav_bar_cont {
     display: none;
+}
+
+.nav_bar_cont i{
+    margin-left: 4px;
 }
 
 
@@ -82,4 +90,44 @@ header{
     width: 100%;
 }
 
- 
+
+
+@media (min-width: 768px){
+    .logo_mobile_header {
+        display:none;
+    }
+    
+    .logo_desktop_header {
+        display: flex;
+        height: 30px;
+    }
+
+    .burger_menu {
+        display: none;
+    }
+
+    .nav_bar_cont {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav_bar_cont{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+        width: 100%;
+    }
+    
+    .nav_bar_cont ul{
+        list-style:none;
+        display: flex;
+    }
+    
+    .nav_bar_cont a{
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        text-align: center;
+    }  
+
+}

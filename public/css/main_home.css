@@ -68,3 +68,25 @@
     font-size: var(--p);
     display: none;
 }
+
+
+
+/*TABLET*/
+@media (min-width: 768px){
+    .section_products {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .complete_product {
+        width: 40%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;         
+    }
+
+    
+
+}

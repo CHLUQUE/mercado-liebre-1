@@ -21,3 +21,21 @@ footer{
     color: var(--light_blue);
     margin-bottom: 7px;
 }
+
+
+@media (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+
+    .footer_point{
+        width: 30%;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+}
