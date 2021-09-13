@@ -1,0 +1,106 @@
+.form {
+    margin: 40px 5%;
+    margin-left: auto;
+    width: 90%;
+    background-color: white;
+    padding: 40px 40px;
+}
+
+.login_input_buttons {
+    display: flex;
+    width: 80%;
+}
+
+.button {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    height: 60px;
+    background-color: white;
+    margin-bottom: 30px;  
+    justify-content: center;
+}
+
+.btn_register {
+    font-weight: 500;
+    border-bottom: var(--yellow) solid 5px;
+}
+
+.button:hover {
+    background-color: var(--light_gray)
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--medium_gray); 
+    margin: auto;  
+}
+
+.input_form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_title_form {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: var(--medium_gray);
+    text-align: start;
+}
+
+.input_bar {
+    width: 80%;
+    height: 30px;
+    border-style: none;
+    border-bottom: var(--medium_gray) solid 1px;
+}
+
+.input_date {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date_auto_form {
+    width: 60%;
+    height: 30px;
+    text-align:end;
+    border: var(--medium_gray) solid 1px;
+}
+
+.container_user_profile {    
+    width: 80%;
+    color: var(--medium_gray);
+    background-color: var(--light_gray);
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.profile_title {
+    font-size: 1.2em;
+}
+
+.user_profile {
+    font-size: 1em;
+}
+
+.container_categories {
+    display: flex;
+    
+    width: 80%;
+    color: var(--medium_gray);
+    background-color: var(--light_gray);
+    padding: 10px 10px;
+    box-sizing: border-box;
+
+}
+
+.category_title {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
