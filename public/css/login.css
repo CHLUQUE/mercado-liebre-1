@@ -1,0 +1,9 @@
+.btn_login a {
+    font-weight: 700;
+    color: var(--light_blue);
+}
+
+.btn_register a {
+    font-weight: 500;
+    color: var(--medium_gray);
+}

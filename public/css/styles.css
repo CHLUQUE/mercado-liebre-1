@@ -2,6 +2,7 @@
 @import url(main_home.css);
 @import url(footer.css);
 @import url(signup.css);
+@import url(login.css);
 
 :root {
     --yellow: #EAC926;

@@ -1,6 +1,7 @@
 .form {
-    margin: 40px 5%;
+    margin-left: 5%;
     width: 90%;
+    margin-top: 40px;
     background-color: white;
     border: var(--medium_gray) solid 1px;
     border-radius: 5px;
@@ -23,20 +24,32 @@
     justify-content: center;
 }
 
-.btn_register {
-    font-weight: 500;
-    border-bottom: var(--yellow) solid 5px;
-}
-
 .button:hover {
+    border-bottom: var(--yellow) solid 5px;
     background-color: var(--light_gray)
 }
+
 
 .button a{
     text-decoration: none;
     font-size: 1.2em;
     color: var(--medium_gray); 
     margin: auto;  
+}
+
+.btn_register a {
+    font-weight: 700;
+    color: var(--light_blue);
+}
+
+.btn_login a {
+    font-weight: 500;
+    color: var(--medium_gray);
+}
+
+.button:hover a {
+    font-weight: 500;
+    color: var(--medium_gray);
 }
 
 .input_form {
